@@ -9,6 +9,11 @@ html {
 }
 
 @font-face {
+    font-family: "Segoe";
+    src: url(./Fonts/Segoe\ UI\ Bold.ttf);
+}
+
+@font-face {
     font-family: "DINBLACK";
     src: url("../Fonts/DIN-BlackAlternate.ttf")
 }
@@ -25,7 +30,7 @@ nav {
 }
 
 .btn {
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -34,6 +39,7 @@ nav {
     border-radius: 5px;
     margin-top: 5px;
     color: #333739;
+    font-family: "Segoe";
 
 
 
@@ -107,7 +113,7 @@ nav {
 #seccionarticulo {
     display: grid;
     margin: 250px;
-    padding: 320px 320px 100px 320px;
+    padding: 380px 320px 100px 320px;
     justify-content: center;
     grid-template-columns: auto 650px;
     grid-template-rows: 200px auto ;
@@ -149,7 +155,8 @@ nav {
     justify-self: center;
     padding: 10px;
     border-radius: 5px;
-    align-self: end;
+    align-self: start;
+    font-size: 30px;
 
 
 }
@@ -172,7 +179,9 @@ nav {
     justify-self: center;
     padding: 10px;
     border-radius: 5px;
-    align-self: center;
+    align-self: start;
+    font-size: 30px;
+    
     
 }
 
@@ -240,9 +249,8 @@ nav {
         justify-self: center;
         padding: 10px;
         border-radius: 5px;
-        align-self: stretch;
-    
-    
+        align-self: stretch;    
+
     }
     
     #seccionarticulo2 {
