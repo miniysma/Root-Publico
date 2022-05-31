@@ -4,63 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Web page for travelers, find a differents options for make a exciting trip">
-    <meta name="keywords"  content="Viajes, travel, nature, trip, world">
-    <title>Amazing Nature</title>
-    <link rel="stylesheet" href="./index.css">
+    <meta name="description" content="Get to know this website to see impressive places you could visit around the world, share stories and experiences with the community">
+    <meta name="keywords"  content="viaje, nature, trip, html, world">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/airplane-icon-6834138_1280.png">
+    <title>Another Adventure | Inspire by Nature</title>
 
 </head>
 <body>
+    <header>
+        <nav>
+            <ul id="navbar">
+                <li id="element1"><a href="/index.html">AnotherAdventure</a></li>
+                <li id="element2"><a href="./pages/seemore.html">See More</a></li>
+                <li id="element3"><a href="/pages/contact.html">Contact</a></li>
+                <li id="element4"><a href="./pages/aboutme.html">About me</a></li>
+                <form id="paypal" action="https://www.paypal.com/donate" method="post" target="_top">
+                    <input type="hidden" name="hosted_button_id" value="CYVKTRYQFSJP6" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                    <img alt="" border="0" src="https://www.paypal.com/en_MX/i/scr/pixel.gif" width="1" height="1" />
+                    </form>
+                    
+            </ul>
 
-    <nav>
-        <a href="/index.html"class="btn">Home</a>
-        <a href="./Pages/contact.html"class="btn">Contact</a>
-        <a href="./Pages/see_more.html"class="btn">See more</a>
-        <a href="./Pages/donations.html"class="btn">Donations</a>
-    </nav>
+        </nav>
+    </header>
 
+    <article>
+        <section>
+            <div id="articulo1">
+                <img id="imagen1" src="./assets/Pico de Orizaba/imagen_pico5.jpeg" alt="mountains">
+                <img id="imagen2" src="./assets/Cascadas_Atlahuitzia/imagen1.jpeg" alt="winter">
+                <h1 class="subt">Pico de Orizaba, México</h1>
+                <h1 class="subt">Waterfalls of Atlahuitzia</h1>
+            </div>
+        </section>
 
-    
-    
-    
-    <section >
-        <h1 id="titulo-pagina">Amazing Nature</h1>
-        <h6 id="subtitulo-pagina">Discover the Nature</h6>
-       
-      
-      </video/>
-    </section>
+        <section>
+            <div id="articulo2">
+                <h1 id="texto1">DISCOVER AMAZING PLACES</h1>
+                <img id="img3" src="./assets/fotob1.jpg" alt="nature">
+                <img id="img4"src="./assets/fotob3.jpg" alt="nature">
+                <img id="img5"src="./assets/fotob2.jpg" alt="nature">
+                <a id="btn" href="/pages/seemore.html">Click here for more</a>
+            </div>
+            <div class="divisor">
+            </div>
 
-    <div class="articulos_mobile">
-   
-    <article id="seccionarticulo">
-        <img id="imagen-articulo" src="../Multimedia/alberta-canada.jpg" alt="alberta-canada">
-        <h2 id="titulo-articulo">CANADIAN ROCKY MOUNTAINS </h2>
-        <p id="texto-articulo">These mountains are the way a child would draw them. Prepare to be jealous of your future self when you see those alpine meadows, turquoise lakes, waterfalls and wildlife.<br>
-        </p>
+        </section>
+
+        <section>
+            <div class="articulo3">
+                <img class="imgcar imgcar1" src="/assets/AE-Portraits-1-2.jpg" alt="AE-Portraits-1-2">
+                <img class="imgcar imgcar2" src="/assets/CI1A4950-Edit.jpg" alt="CI1A4950-Edit">
+                <img class="imgcar imgcar3" src="/assets/junior-moran-hrEJYRtBDrk-unsplash.jpeg" alt="junior-moran-hrEJYRtBDrk-unsplash">
+                <img class="imgcar imgcar4" src="/assets/CI1A3826.jpeg" alt="CI1A3826">
+                <h5 class="textopequeño txtp1">Our Story</h5>
+                <h5 class="textopequeño txtp2">A new chapter</h5>
+                <h5 class="textopequeño txtp3">Notice</h5>
+                <h5 class="textopequeño txtp4">The Edit</h5>
+                <h2 class="textomediano txtm1">The Journey So Far</h2>
+                <h2 class="textomediano txtm2">Changing Things Up</h2>
+                <h2 class="textomediano txtm3">Our Corona Notice</h2>
+                <h2 class="textomediano txtm4">Outdoor Experiences</h2>
+                
+            </div>
+        </section>
+        <div class="formail">
+            <h1 class="textoform">Would you like content like this sent to your inbox?</h1>
+            <form id="inpt">
+            <input  type="text" name="email" placeholder="your email address">
+            <button id="btn2" type="button" onclick="alert('Thanks for join to the club!!')">Submit</button>
+            </form>
+        </div>
     </article>
 
-    <article id="seccionarticulo2">
-        <img id="imagen-articulo2" src="../Multimedia/Pico de Orizaba/imagen_pico5.jpeg" alt="Pico de orizaba">
-        <h2 id="titulo-articulo2">PICO DE ORIZABA, MEXICO</h2>
-        <p id="texto-articulo2">Pico de Orizaba is a great mountain for people who are fairly new to mountaineering.<br> It's a non-technical climb but requires the use of crampons and an ice axe.<br>
-        At 5,636 meters, Pico de Orizaba is North America's third tallest mountain after Denali in Alaska and Mt.
-            </p>
-    </article>
+<footer class="footer2">
+    <div>
+        <ul class="listfooter2">
+          <li><a href="https://twitter.com/miniysma">Twitter</a></li>
+          <li><a href="https://codepen.io/miniysma">Codepen</a></li>
+          <li><a href="mailto:iysmaelpg@gmail.com">Email</a></li>
+          <li><a href="https://dribbble.com/miniysma">Dribbble</a></li>
+          <li><a href="https://github.com/miniysma">Github</a></li>
+          <li>
+            <p>👋</p>
+          </li>
+        </ul>
+      </div>
+</footer>
 
-   </div>
-
-
-
-    <video autoplay loop id="video_background" preload="auto" muted/>
-    <source src="../Multimedia/Ocean - 19609.mp4" type="video/mp4" />
-
-
-    <footer id="derechos-reservados">
-        <h4>Marca registrada</h4>
-        
-    </footer>
     
+  
     
+
+
 </body>
 </html>
